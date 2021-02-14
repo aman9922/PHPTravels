@@ -2,7 +2,7 @@
 UI test automation for PHPTravels 
 
 # Installation (pre-requisites)
-1. JDK 1.8 (make sure Java class path is set2
+1. JDK 1.8 (make sure Java class path is set)
 2. Maven
 
 # Steps to execute tests:
