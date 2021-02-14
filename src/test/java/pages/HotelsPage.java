@@ -48,7 +48,7 @@ public class HotelsPage extends Common {
     }
 
     public void clickSignInTab() {
-        click(signintab);
+        clickByJS(signintab);
     }
 
     public void enterUserDetails(String emailId, String pwd) {

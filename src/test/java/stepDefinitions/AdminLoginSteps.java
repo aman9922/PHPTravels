@@ -17,7 +17,7 @@ public class AdminLoginSteps {
     }
 
     @When("User enters email as {string} and password as {string}")
-    public void User_enters_username_as_something_and_password_as_something(String username, String password) {
+    public void user_enters_username_as_something_and_password_as_something(String username, String password) {
         adminLoginPage.enterEmail(username);
         adminLoginPage.enterPassword(password);
     }

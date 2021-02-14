@@ -58,7 +58,7 @@ public class HomePage extends Common {
     }
 
     public void clickOnSubmitBtn() {
-        click(submit);
+        clickByJS(submit);
     }
 
     public void enterCheckInAndCheckoutDate(String checkin, String checkout) {

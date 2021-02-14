@@ -9,17 +9,17 @@ public class HotelsSteps {
     HotelsPage hotelPage = new HotelsPage();
 
     @Then("User is navigated to hotel {string} page")
-    public void user_is_navigated_to_hotel_something_page(String hotelname) {
+    public void user_Is_Navigated_To_Hotel_Something_Page(String hotelname) {
         hotelPage.verifyHotelPage(hotelname);
     }
 
     @When("User selects room type {string}")
-    public void user_selects_room_type(String roomType) {
+    public void user_Selects_Room_Type(String roomType) {
         hotelPage.selectRoom(roomType);
     }
 
     @And("User clicks on book now")
-    public void user_clicks_on_book_now() {
+    public void user_Clicks_On_Book_Now() {
         hotelPage.clickBookNowBtn();
     }
 
@@ -39,7 +39,7 @@ public class HotelsSteps {
     }
 
     @And("User clicks on confirm this booking button")
-    public void clicks_on_confirm_this_booking_button() {
+    public void clicks_On_Confirm_This_Booking_Button() {
         hotelPage.clickOnConfirmThisBooking();
     }
 

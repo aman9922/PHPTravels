@@ -124,7 +124,7 @@ public class AdminHotelsStep {
     }
 
     @And("User enters price as {string}, hotel as {string},room type as {string},quantity as {string}, min stay as {string},max adults as {string}")
-    public void userEntersPriceAsHotelAsRoomTypeAsQuantityAsMinStayAsMaxAdultsAs(String price, String hotelName, String roomType, String quantity, String minStay, String adults) {
+    public void user_Enters_Price_As_Hotel_As_RoomType_As_QuantityAs_MinStay_As_MaxAdults_As(String price, String hotelName, String roomType, String quantity, String minStay, String adults) {
         adminHotelsPage.enterPrice(price);
         adminHotelsPage.selectHotel(hotelName);
         adminHotelsPage.enterRoomType(roomType);

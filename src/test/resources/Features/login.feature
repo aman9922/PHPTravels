@@ -29,7 +29,7 @@ Feature: Login functionality tests
     And User updates phone number as "2143657"
     Then User clicks on submit button
     When User clicks on my profile tab
-    Then Then user verifies updated phone number as "2143657"
+    Then User verifies updated phone number as "2143657"
 
 
 

@@ -139,7 +139,7 @@ public class AdminHotels extends Common {
         String[] facilityNameArr = facilityNames.split("\\|");
         for (String name :
                 facilityNameArr) {
-            click(driver.findElement(By.xpath(String.format(facilities, name))));
+            clickByJS(driver.findElement(By.xpath(String.format(facilities, name))));
         }
     }
 
@@ -196,7 +196,7 @@ public class AdminHotels extends Common {
     }
 
     public void clickOnMetaTab() {
-        click(metaInfoTab);
+        clickByJS(metaInfoTab);
     }
 
     public void enterMeteTitle(String title) {

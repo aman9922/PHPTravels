@@ -11,7 +11,7 @@ public class HomePageSteps {
 
     @Given("User is on login page")
     public void user_is_on_login_page() {
-        homePage.navigateTo("https://www.phptravels.net/");
+        homePage.navigateToHomepage();
         homePage.clickOnMyAccount();
         homePage.clickOnLogin();
     }
