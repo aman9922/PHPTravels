@@ -47,7 +47,7 @@ Feature: Add a new hotel and do booking
     When User enters hotel "test" in search box
     Then Links related to "kiểm tra" are shown on the dropdown
     When User clicks on hotel "kiểm tra" from the dropdown list
-    And User enters checkin date "15/02/2021" and checkout date "16/02/2021"
+    And User enters checkin date "15/03/2021" and checkout date "16/03/2021"
     And User click on submit button
     Then User is navigated to hotel "test" page
     When User selects room type "One-Bedroom Apartment"

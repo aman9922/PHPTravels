@@ -6,7 +6,7 @@ Feature: booking functionality tests
     When User enters hotel "Oasis Beach Tower" in search box
     Then Links related to "Oasis Beach Tower" are shown on the dropdown
     When User clicks on hotel "Oasis Beach Tower" from the dropdown list
-    And User enters checkin date "22/02/2021" and checkout date "23/02/2021"
+    And User enters checkin date "22/03/2021" and checkout date "23/03/2021"
     And User click on submit button
     Then User is navigated to hotel "Oasis Beach Tower" page
     When User selects room type "Superior Single View"
